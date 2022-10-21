@@ -13,7 +13,7 @@ var numCnt = 0;
 var operand = "";
 
 function setDisplay(input) {
-    console.log(num1 + operand + num2);
+//     console.log(num1 + operand + num2);
     //set display
     displayNum = displayNum + input;
 
@@ -69,7 +69,7 @@ function calculate() {
                 total = Number(num1) / Number(num2);
                 break;
         }
-        console.log(total);
+//         console.log(total);
 
         //display
         document.getElementById("calcText").value = total;
