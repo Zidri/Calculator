@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/046dd30d2f.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <div class="header">
+        <h1>Calculator</h1>
+    </div>
+    <div class="container">
+
+        <div class="calculator">
+            <div class="calcRow">
+                <input type="text" id="calcText">
+            </div>
+            <div class="calcRow">
+                <button class="btn" id="clear" onclick="changeCalc('clear')">clear</button>
+                <button class="btn" id="divide" onclick="changeCalc('/')">/</button>
+            </div>
+            <div class="calcRow">
+                <button class="btn" id="seven" onclick="changeCalc(7)">7</button>
+                <button class="btn" id="eight" onclick="changeCalc(8)">8</button>
+                <button class="btn" id="nine" onclick="changeCalc(9)">9</button>
+                <button class="btn" id="plus" onclick="changeCalc('+')">+</button>
+            </div>
+            <div class="calcRow">
+                <button class="btn" id="four" onclick="changeCalc(4)">4</button>
+                <button class="btn" id="five" onclick="changeCalc(5)">5</button>
+                <button class="btn" id="six" onclick="changeCalc(6)">6</button>
+                <button class="btn" id="minus" onclick="changeCalc('-')">-</button>
+            </div>
+            <div class="calcRow">
+                <button class="btn" id="one" onclick="changeCalc(1)">1</button>
+                <button class="btn" id="two" onclick="changeCalc(2)">2</button>
+                <button class="btn" id="three" onclick="changeCalc(3)">3</button>
+                <button class="btn" id="multi" onclick="changeCalc('*')">*</button>
+            </div>
+            <div class="calcRow">
+                <button class="btn" id="zero" onclick="changeCalc(0)">0</button>
+                <button class="btn" id="decimal" onclick="changeCalc('.')">.</button>
+                <button class="btn" id="equals" onclick="calculate()">=</button>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
